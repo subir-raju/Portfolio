@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+import img1 from './assets/picpro.jpeg';
 
 
 const Navbar = () => {
@@ -8,6 +9,7 @@ const Navbar = () => {
           <div className="header">
             <nav>
             <div className="logo">
+                
                 <a href='/'><h1>Subir Dey</h1></a>
             </div>
                 <ul className="ul-items">
