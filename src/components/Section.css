@@ -9,8 +9,8 @@
     overflow: hidden;
 }
 
-.container {
-    height: 100vh;
+.container-home {
+    height: 60vh;
     display: flex;
     align-items: center;
     text-align: center;
