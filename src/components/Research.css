@@ -1,0 +1,22 @@
+.container-research {
+    height: 60vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.research-div {
+    height: 150px;
+    width: 100%;
+    background-color: #E9F7EF;
+}
+.research-div h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
