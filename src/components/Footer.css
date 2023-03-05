@@ -8,8 +8,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-ul {
+.footer-col ul {
     list-style: none;
+   
 }
 .footer {
     background-color: #F7E6DF;

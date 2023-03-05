@@ -1,7 +1,9 @@
-
+.header {
+    position: fixed;
+    width: 100%;
+}
 a:link {
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 a:visited {
@@ -37,21 +39,29 @@ nav {
     
 }
 
+.logo h1{
+    color: black;
+    font-weight: 500;
+}
+
 
 .ul-items{
     display: flex;
     list-style: none;
     align-items: center;
-    
-    
 }
 
 .ul-items li {
     margin-right: 2rem;
     text-decoration: none;
     text-transform: uppercase;
-    
+    cursor: pointer;    
 }
+.ul-items li b{
+    color: black;
+    font-weight: 500;
+}
+
 
 
 

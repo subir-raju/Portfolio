@@ -6,9 +6,7 @@ const Section = () => {
     return(
         <section className='main-section'>
             <div className='container-home'>
-              <div className='image'>
-                
-               </div>
+              
                 <div className='texts'>
                      <img src={img1} alt='' />
                     <h1> Hello, My Name is</h1>
