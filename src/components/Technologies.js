@@ -40,12 +40,10 @@ const Technologies = () => {
             <div className='projects'>
                 <div className='description'>
                     <h3>Air Ticket Manager</h3>
-                    <p>In the Senior Design course of my undergraduate final year,
-                         built InTrack, which is a software tool to track RMG manufacturing
-                          defects using real-time production data. Simple data from the 
-                          quality control can provide us with enhanced data-visuals into
-                           the overall production line. </p><br />
-                           <p> Utilized - <b>React.js, Microsrvice Architecture, MySQL</b></p>
+                    <p>Air Ticket Manager is a prototype of a simple website created for the 
+                        Internet and Web Technology course in my undergrad life 
+                        for booking seats and confirm tickets of an air journey. </p><br />
+                           <p> Utilized - <b>PHP, JavaScript, HTML, CSS, MySQL</b></p>
                 </div>
                 <div className='description'>
                     <img src={airticket} alt='' />
