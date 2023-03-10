@@ -5,9 +5,6 @@ import img1 from './assets/picpro.jpeg';
 
 const Normal_Format_URL='http://localhost:3001/Resume/Normal/CV_SubirDeyRaju.pdf'
 
-
-
-
 const Navbar = () => {
     const downloadFileAtURL=(url)=>{
     const fileName = url.split('/').pop();

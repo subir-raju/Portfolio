@@ -67,5 +67,34 @@ nav {
     font-weight: 500;
 }
 
+@media (max-width: 600px){
+    nav {
+            height: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #F5F5F5;
+        }
 
+    .logo {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo  h1{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding-left: 39%;
+    }
+    .nav-links {
+      margin-left: 6%;
+    }
+}
+@media (max-width: 450px){
+    .logo h1{
+        padding-left: 35%;
+    }
+}
 
