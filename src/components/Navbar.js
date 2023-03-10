@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import img1 from './assets/picpro.jpeg';
 
-const Normal_Format_URL='https://portfolio-one-delta-88.vercel.app/Resume/Normal/CV_SubirDeyRaju.pdf'
+const Normal_Format_URL='https://portfolio-cvc99juco-subir-raju.vercel.app/Resume/Normal/CV_SubirDeyRaju.pdf'
 
 const Navbar = () => {
     const downloadFileAtURL=(url)=>{
