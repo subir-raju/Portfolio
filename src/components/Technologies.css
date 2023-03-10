@@ -46,7 +46,7 @@
     height: 60%;
     width: 60%;
     box-shadow: 10px 10px 40px 5px gray;
-    margin: 10%;
+    margin: 5% 25%;
     
 
 }
@@ -73,6 +73,7 @@
    .description img {
     height: 70%;
     width: 80%;
+    margin-left: 10%;
    }
   
 }
@@ -84,7 +85,6 @@
     .description img {
         height: 70%;
         width: 80%;
-        display: flex;
-        justify-content: center;
+        margin-left: 10%;
     }
 }
