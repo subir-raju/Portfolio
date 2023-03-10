@@ -38,7 +38,7 @@
 .texts p {
     border-top: 2px solid grey;
     color: gray;
-    text-transform: lowercase;
+    text-transform: none;
 }
 .texts img {
     clip-path: circle(40.0% at 50% 60%);

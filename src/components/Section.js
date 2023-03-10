@@ -11,10 +11,11 @@ const Section = () => {
                      <img src={img1} alt='' />
                     <h1> Hello, My Name is</h1>
                     <h1 className='h1-big'>Subir Dey Raju</h1>
-                    <p> A Professional Front-end Developer with almost 
-                        02 years of experience alongside continueing a 
-                        masters degree at Freie Universität Berlin in Germany</p>
-                    
+                    <p> A front-end software engineer with approximately 02 years 
+                        of experience in developing web applications. I also love 
+                        researching on new technologies and their usage in my projects
+                        for better and scalable outcomes. 
+                         </p>
                 </div>
 
               
