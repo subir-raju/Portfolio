@@ -25,6 +25,7 @@ const Navbar = () => {
                 
                 <a href='/'><h1>Subir Dey</h1></a>
             </div>
+            <div className='nav-links'>
                 <ul className="ul-items">
                     <li>
                         <NavLink to ='/'><b>Home</b></NavLink>
@@ -32,10 +33,14 @@ const Navbar = () => {
                     <li>
                         <NavLink to='/research'><b>Research</b></NavLink>
                     </li>
+                    <li>
+                        <NavLink to='/blog'><b>Blog</b></NavLink>
+                    </li>
                     <li onClick={()=>{downloadFileAtURL(Normal_Format_URL)}}>
                         <b>Resume</b>
                     </li>
                 </ul>
+                </div>
             </nav>
           </div>
     

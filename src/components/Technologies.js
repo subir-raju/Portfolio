@@ -1,25 +1,54 @@
 import React from 'react';
 import './Technologies.css';
+import docket from './assets/Docket.png';
 
 const Technologies = () => {
     return(
         <div class='tech'>
             <div className='tech-header'>
-            <h1> I have experience in working with the following techs.</h1>
-            
-            
-                 <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>C</li>
-                <li>C++</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>R</li>
-                <li>React.js</li>
-                <li>MySQL</li>
-            </ul>
+            <h2> Projects I Have Worked On</h2>
+            <div className='projects'>
+                <div className='description'>
+                    <h3>InTrack</h3>
+                    <p>In the Senior Design course of my undergraduate final year,
+                         built InTrack, which is a software tool to track RMG manufacturing
+                          defects using real-time production data. Simple data from the 
+                          quality control can provide us with enhanced data-visuals into
+                           the overall production line. </p><br />
+                           <p> Utilized - <b>React.js, Microsrvice Architecture, MySQL</b></p>
+                </div>
+                <div className='description'>
+                    <img src={docket} alt='' />
+                </div>
+            </div>
+            <div className='projects'>
+                <div className='description'>
+                    <h3>InTrack</h3>
+                    <p>In the Senior Design course of my undergraduate final year,
+                         built InTrack, which is a software tool to track RMG manufacturing
+                          defects using real-time production data. Simple data from the 
+                          quality control can provide us with enhanced data-visuals into
+                           the overall production line. </p><br />
+                           <p> Utilized - <b>React.js, Microsrvice Architecture, MySQL</b></p>
+                </div>
+                <div className='description'>
+                    <img src={docket} alt='' />
+                </div>
+            </div>
+            <div className='projects'>
+                <div className='description'>
+                    <h3>InTrack</h3>
+                    <p>In the Senior Design course of my undergraduate final year,
+                         built InTrack, which is a software tool to track RMG manufacturing
+                          defects using real-time production data. Simple data from the 
+                          quality control can provide us with enhanced data-visuals into
+                           the overall production line. </p><br />
+                           <p> Utilized - <b>React.js, Microsrvice Architecture, MySQL</b></p>
+                </div>
+                <div className='description'>
+                    <img src={docket} alt='' />
+                </div>
+            </div>
             </div>
            
         </div>

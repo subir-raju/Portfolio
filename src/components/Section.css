@@ -2,7 +2,7 @@
 
 .main-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     background-color: rgb(216, 216, 216);
     font-family: 'Poppins', sans-serif;
     border: 7px solid #F7EBDF;
@@ -10,7 +10,6 @@
 }
 
 .container-home {
-    height: 60vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -18,9 +17,13 @@
 }
 
 .texts {
+    margin-top: 0;
+    padding-top: 0;
     margin-left: 1rem;
     text-transform: uppercase;
     width: 620px;
+    margin-bottom: 100px;
+    
 }
 
 .texts h1 {
@@ -37,19 +40,13 @@
     color: gray;
     text-transform: lowercase;
 }
-
-.text-button {
-    margin-top: 2.4rem;
-    padding: 14px 35px;
-    cursor: pointer;
-    background-color: rgb(59, 55, 55);
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 5px;
+.texts img {
+    clip-path: circle(40.0% at 50% 60%);
+    margin-top: 10rem;
+    height: 250px;
+    width: 250px;
+    text-align: center;
 }
-
-
 
 @media screen and (max-width:1200px) {
 
@@ -63,22 +60,14 @@
         font-size: 40px;
         color: rgb(61, 60, 60);
     }
+    
 
-    .text-button {
-        margin-top: 1rem;
-        padding: 12px 30px;
-    }
-
-    .image {
-        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 39% 100%, 0% 50%, 36% 0);
-        background-color: rgba(0, 0, 0, 0.596);
-    }
-
-    .image img {
-        margin-top: 5rem;
-        height: 420px;
-        width: 220px;
-        object-fit: contain;
+    .texts img {
+        clip-path: circle(40.0% at 50% 60%);
+        margin-top: 10rem;
+        height: 250px;
+        width: 250px;
+        text-align: center;
     }
 }
 
@@ -91,19 +80,21 @@
     .texts p {
         border-top: 2px solid grey;
         color: gray;
-        width: 70%;
         text-transform: lowercase;
         font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
     }
 }
 
 
-@media (max-width:400px) {
+@media screen and (max-width:400px) {
 
 
 
     .texts h1 {
-        font-size: 10px;
+        font-size: 1px;
         color: gray;
     }
 
@@ -117,17 +108,8 @@
         color: gray;
         text-transform: lowercase;
         font-size: 8px;
+                
+                   
     }
 
-    .text-button {
-        margin-top: 1rem;
-        padding: 8px 25px;
-    }
-}
-
-.texts img {
-    clip-path: circle(40.0% at 50% 60%);
-    height: 250px;
-    width: 250px;
-    text-align: center;
 }

@@ -1,0 +1,12 @@
+.main-sectionblog {
+    width: 100%;
+    min-height: 60vh;
+    background-color: rgb(216, 216, 216);
+    overflow: hidden;
+}
+.container-homeblog {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+}

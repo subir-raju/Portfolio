@@ -6,9 +6,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-   <div className="App">
+   <div className="page-container">
+    <div className='content-wrap'>
     <NavComponent />
-   
+
+   </div>
     <Footer />
    </div>
   );

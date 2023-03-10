@@ -1,6 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .header {
     position: fixed;
     width: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+    
 }
 a:link {
     text-decoration: none;  
@@ -20,11 +30,6 @@ a:active {
 }
 li {
     list-style-type: none;
-}
-header {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
 }
 
 nav {
@@ -61,7 +66,6 @@ nav {
     color: black;
     font-weight: 500;
 }
-
 
 
 
