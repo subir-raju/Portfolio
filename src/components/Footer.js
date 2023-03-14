@@ -18,7 +18,7 @@ const Footer = () =>{
                 </div>
                
                 <div className='footer-col'>
-                    <h4>DigitalSpace</h4>
+                    <h4>Social Media</h4>
                     <ul>
                          <li><a href='#'><FaFacebook  size='1rem' />  Facebook</a></li>
                         <li><a href='#'><FaInstagram size='1rem' />  Instagram</a></li>

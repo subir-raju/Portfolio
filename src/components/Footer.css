@@ -1,4 +1,3 @@
-
 .container-footer {
     max-width: 100%;
     margin: auto;
@@ -8,10 +7,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .footer-col ul {
     list-style: none;
-   
+
 }
+
 .footer {
     background-color: #F7E6DF;
     padding: 4rem 0 2rem 0;
@@ -22,9 +23,10 @@
     width: 100%;
 
 }
+
 .footer-col {
     width: 50%;
-  padding: 10px 190px;   
+    padding: 10px 190px;
 }
 
 .footer-col h4 {
@@ -38,27 +40,28 @@
     text-align: center;
     display: inline-block;
     justify-content: center;
+    margin-right: 35px;
 }
 
-.footer-col ul li{
+.footer-col ul li {
     font-size: 19px;
-    
 }
 
 .footer-col ul li a {
-    
     color: gray;
     text-decoration: none;
     font-weight: 500;
     display: inline-block;
     margin-bottom: 10px;
     transition: all 0.3s ease;
-    
+
 }
+
 .footer-col ul li a:hover {
     color: #443D3A;
     padding-left: 5px;
 }
+
 .row p {
     text-align: center;
     justify-content: center;
@@ -66,25 +69,26 @@
     color: red;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) {
     .footer-col {
         width: 100%;
         padding: 10px 2px;
-    
-        }
 
-     .footer-col h4 {
+    }
+
+    .footer-col h4 {
         text-align: left;
         display: inline-block;
         justify-content: left;
-        }
+    }
+
     .footer-col ul li a {
-       
+
         display: inline-block;
         margin-bottom: 10px;
         transition: all 0.3s ease;
         text-align: center;
-         }
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -94,15 +98,16 @@
     }
 
 
-.footer-col h4 {
-    text-align: left;
-    display: inline-block;
-    justify-content: left;
-}
+    .footer-col h4 {
+        text-align: left;
+        display: inline-block;
+        justify-content: left;
+    }
+
     .footer-col ul li a {
 
         color: black;
-        
+
         text-align: center;
         justify-content: center;
     }
